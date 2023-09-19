@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <section class="wrapper">
+        <div>
+            <h1 text-align="center">Лучшая пицца</h1>
+        </div>
+        
+        <table border="1">
+            <caption>Выбор пиццы</caption>
+            <tr class="1">
+                <th>Название пиццы</th>
+                <th>Размер пиццы</th>
+                <th colspan="2">Состав</th>
+                <th>Цена</th>
+            </tr>
+            <tr class="2">
+                <td>Маргарита</td>
+                <td>Маленькая</td>
+                <td colspan="2">сладкие томаты;
+                    сыр моцарелла;
+                    оливковое масло;
+                    пряный базилик.</td>
+                <td>520р.</td>
+            </tr>
+            <tr class="3">
+                <td>Неаполитанская</td>
+                <td>Маленькая</td>
+                <td colspan="2">пармезана;
+                    сладких помидор;
+                    орегано;
+                    анчоусов;
+                    базилика.</td>
+                <td>370р.</td>
+            </tr>
+            <tr class="4">
+                <td>Четыре сыра</td>
+                <td>Большая</td>
+                <td colspan="2">моцарелла;
+                    пармезан;
+                    фонтина;
+                    дор-блю.</td>
+                <td>888р.</td>
+            </tr>
+            <tr class="5">
+                <td>Капричоза</td>
+                <td>Маленькая</td>
+                <td colspan="2"> моцарелла;
+                    запеченная ветчина;
+                    шампиньоны (или другие грибы);
+                    артишоки маринованные;
+                    томаты;
+                    листья базилика.</td>
+                <td>368р.</td>
+            <tr class="6">
+                <td>Сицилийская </td>
+                <td>Средняя</td>
+                <td colspan="2">сладкие томаты;
+                    анчоусы;
+                    лук;
+                    маслины;
+                    чеснок.</td>
+                <td>674р.</td>
+            <tr class="7">
+                <td>Маринара</td>
+                <td>Маленькая</td>
+                <td colspan="2">оливковое масло;
+                    лук и чеснок;
+                    черные оливки;
+                    каперсы;
+                    орегано. </td>
+                <td>364р.</td>
+            <tr class="8">
+                <td>Гавайская</td>
+                <td>Средняя</td>
+                <td colspan="2">ананасы;
+                    ветчина;
+                    красный лук;
+                    твердый сыр.</td>
+                <td>699р.</td>
+            <tr class="9">
+                <td>Диабло</td>
+                <td>Большая</td>
+                <td colspan="2">острый калабрийский перец;
+                    пармезан;
+                    моцарелла;
+                    салями;
+                    шампиньоны.</td>
+                <td>1001р.</td>
+            </tr>
+        </table>
+        </fieldset>
+        <p>В подарок с заказом от 700 руб. вы можете выбрать десерт из списка</p>
+        <select id="podarki">
+            <option value="Чизкейк Нью-Йорк">Чизкейк Нью-Йорк</option>
+            <option value="Додо тарт">Додо тарт</option>
+            <option value="Брауни">Брауни</option>
+            <option value="Фондан">Шоколадный кукис</option>
+        </select> 
+        <p>
+            <fieldset class="ааа">
+                <legend>Хотите ли вы сделать боносную карту?</legend>
+                <input type="checkbox" name="yes" value="y"> да
+                <input type="checkbox" name="no" value="n"> нет
+            </fieldset>
+        </p>
+        <h3>После того как вы определились с вашим заказом заполните бланк ниже, после чего с вами свяжется наш оператор для подтверждения заказа</h3>
+        <form action="">
+            <fieldset>
+                <legend>Ваши данные</legend>
+                <input type="text" placeholder="ФИО" required> <br><br>
+                <input type="text" placeholder="+79885556677" required> <br><br>
+                <input type="text" placeholder="Адрес" required> <br><br>
+                <input type="button" name="send" value="отправть">
+                <input type="reset" name="res" value="очистить форму"> <br><br>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
